@@ -8,11 +8,11 @@ package number;
  */
 public class Arith {
     public static void main(String[] args) {
-        float numder1=45.56f;
-        int numder2=152;
-        System.out.println("和为："+numder1+numder2);
-        System.out.println("差为："+(numder1-numder2));
-        System.out.println("积为："+(numder1*numder2));
-        System.out.println("商为："+(numder1/numder2));
+        float number1 = 45.56f;
+        int number2 = 152;
+        System.out.println("和为：" + number1 + number2);
+        System.out.println("差为：" + (number1 - number2));
+        System.out.println("积为：" + (number1 * number2));
+        System.out.println("商为：" + (number1 / number2));
     }
 }
