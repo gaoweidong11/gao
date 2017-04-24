@@ -11,6 +11,6 @@ public class NewStr {
         String str = "abbress";
         //将字符串str中的“a”改变成“A”，返回新的字符串
         String newstr = str.replace("a","A");
-        System.out.println(newstr);//输出改变后的字符串
+        System.err.println(newstr);//输出改变后的字符串
     }
 }
