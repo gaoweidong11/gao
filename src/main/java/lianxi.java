@@ -7,8 +7,8 @@
 public class lianxi {
     public static void main(String[] args) {
         print99();
-        int i= add(1,2,3);
-        System.out.println(i);
+//        int i= add(1,2,3);
+//        System.out.println(i);
     }
     private static void print99() {
         for (int i = 1; i < 9; i++) {
@@ -19,11 +19,11 @@ public class lianxi {
         }
     }
 
-    private static int add(int x, int y) {
-        return x+y;
-    }
-    private static int add(int x, int y,int z) {
-        return x-y+z;
-    }
+//    private static int add(int x, int y) {重载
+//        return x+y;
+//    }
+//    private static int add(int x, int y,int z) {
+//        return x-y+z;
+//    }
 
 }
