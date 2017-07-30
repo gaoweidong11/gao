@@ -10,6 +10,7 @@ public class lianxi {
 //        int i= add(1,2,3);
 //        System.out.println(i);
     }
+
     private static void print99() {
         for (int i = 1; i < 9; i++) {
             for (int j = 1; j <= i; j++) {
@@ -24,6 +25,5 @@ public class lianxi {
 //    }
 //    private static int add(int x, int y,int z) {
 //        return x-y+z;
-//    }
-
 }
+
